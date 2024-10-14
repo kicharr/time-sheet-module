@@ -11,38 +11,30 @@ const data: ITimeSheetProps = {
     displayType: 'full',
     rows: [
         {
-            gid: '123123123',
+            id: '456754674567',
             employment: [
                 {
-                    company_id: '123789',
-                    company_name: 'ОАО ЗАЯЦ',
+                    id: '123789',
+                    title: 'ООО ВОЛК',
                     temporary_employment: [
                         {
                             start: 'Wed Oct 09 2024 11:36:51 GMT+0300',
-                            end: 'Wed Oct 13 2024 11:36:51 GMT+0300'
-                        },
-                        {
-                            start: 'Wed Oct 10 2024 11:36:51 GMT+0300',
-                            end: 'Wed Oct 22 2024 11:36:51 GMT+0300'
+                            end: 'Wed Oct 14 2024 11:36:51 GMT+0300'
                         }
                     ]
                 }
             ]
         },
         {
-            gid: '456754674567',
+            id: '123456',
             employment: [
                 {
-                    company_id: '123789',
-                    company_name: 'ООО ВОЛК',
+                    id: '98876',
+                    title: 'ООО ЗАЯЦ',
                     temporary_employment: [
                         {
-                            start: 'Wed Oct 20 2024 11:36:51 GMT+0300',
-                            end: 'Wed Oct 25 2024 11:36:51 GMT+0300'
-                        },
-                        {
-                            start: 'Wed Oct 15 2024 11:36:51 GMT+0300',
-                            end: 'Wed Oct 29 2024 11:36:51 GMT+0300'
+                            start: 'Wed Oct 14 2024 11:36:51 GMT+0300',
+                            end: 'Wed Oct 20 2024 11:36:51 GMT+0300'
                         }
                     ]
                 }

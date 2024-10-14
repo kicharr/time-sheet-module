@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/time-sheet.umd.js",
+  "module": "./dist/time-sheet.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/time-sheet.es.js",
+      "require": "./dist/time-sheet.umd.js"
+    },
+    "./dist/time-sheet-style.css": "./dist/time-sheet-style.css",
+    "./dist/time-sheet-style.scss": "./dist/time-sheet-style.scss"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",

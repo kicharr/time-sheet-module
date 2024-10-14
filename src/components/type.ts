@@ -17,16 +17,16 @@ export interface IDateRange {
     step: string
 }
 
-// Исключаем шаг
-export type RangePreview = Omit<IDateRange, 'step'>
+export interface IEmployment {
+    id: string | number
+    title: string
+    temporary_employment: RangePreview[]
+}
 
 export interface IRowsData {
-    gid: string
+    id: string
     employment: IEmployment[]
 }
 
-export interface IEmployment {
-    company_id: string | number
-    company_name: string
-    temporary_employment: RangePreview[]
-}
+// Исключаем шаг
+export type RangePreview = Omit<IDateRange, 'step'>
